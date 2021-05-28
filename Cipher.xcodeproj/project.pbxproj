@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D99CDFA2660DA07002C5E4D /* CipherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CDF92660DA07002C5E4D /* CipherApp.swift */; };
+		5D99CDFC2660DA07002C5E4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CDFB2660DA07002C5E4D /* ContentView.swift */; };
+		5D99CDFE2660DA08002C5E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D99CDFD2660DA08002C5E4D /* Assets.xcassets */; };
+		5D99CE012660DA08002C5E4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D99CE002660DA08002C5E4D /* Preview Assets.xcassets */; };
+		5D99CE032660DA08002C5E4D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CE022660DA08002C5E4D /* Persistence.swift */; };
+		5D99CE062660DA08002C5E4D /* Cipher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CE042660DA08002C5E4D /* Cipher.xcdatamodeld */; };
+		5D99CE112660DA08002C5E4D /* CipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CE102660DA08002C5E4D /* CipherTests.swift */; };
+		5D99CE1C2660DA08002C5E4D /* CipherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CE1B2660DA08002C5E4D /* CipherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D99CE0D2660DA08002C5E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D99CDEE2660DA07002C5E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D99CDF52660DA07002C5E4D;
+			remoteInfo = Cipher;
+		};
+		5D99CE182660DA08002C5E4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D99CDEE2660DA07002C5E4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D99CDF52660DA07002C5E4D;
+			remoteInfo = Cipher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D99CDF62660DA07002C5E4D /* Cipher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cipher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D99CDF92660DA07002C5E4D /* CipherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherApp.swift; sourceTree = "<group>"; };
+		5D99CDFB2660DA07002C5E4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5D99CDFD2660DA08002C5E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D99CE002660DA08002C5E4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5D99CE022660DA08002C5E4D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		5D99CE052660DA08002C5E4D /* Cipher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cipher.xcdatamodel; sourceTree = "<group>"; };
+		5D99CE072660DA08002C5E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D99CE0C2660DA08002C5E4D /* CipherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CipherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D99CE102660DA08002C5E4D /* CipherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherTests.swift; sourceTree = "<group>"; };
+		5D99CE122660DA08002C5E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D99CE172660DA08002C5E4D /* CipherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CipherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D99CE1B2660DA08002C5E4D /* CipherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CipherUITests.swift; sourceTree = "<group>"; };
+		5D99CE1D2660DA08002C5E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D99CDF32660DA07002C5E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D99CE092660DA08002C5E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D99CE142660DA08002C5E4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D99CDED2660DA07002C5E4D = {
+			isa = PBXGroup;
+			children = (
+				5D99CDF82660DA07002C5E4D /* Cipher */,
+				5D99CE0F2660DA08002C5E4D /* CipherTests */,
+				5D99CE1A2660DA08002C5E4D /* CipherUITests */,
+				5D99CDF72660DA07002C5E4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D99CDF72660DA07002C5E4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D99CDF62660DA07002C5E4D /* Cipher.app */,
+				5D99CE0C2660DA08002C5E4D /* CipherTests.xctest */,
+				5D99CE172660DA08002C5E4D /* CipherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D99CDF82660DA07002C5E4D /* Cipher */ = {
+			isa = PBXGroup;
+			children = (
+				5D99CDF92660DA07002C5E4D /* CipherApp.swift */,
+				5D99CDFB2660DA07002C5E4D /* ContentView.swift */,
+				5D99CDFD2660DA08002C5E4D /* Assets.xcassets */,
+				5D99CE022660DA08002C5E4D /* Persistence.swift */,
+				5D99CE072660DA08002C5E4D /* Info.plist */,
+				5D99CE042660DA08002C5E4D /* Cipher.xcdatamodeld */,
+				5D99CDFF2660DA08002C5E4D /* Preview Content */,
+			);
+			path = Cipher;
+			sourceTree = "<group>";
+		};
+		5D99CDFF2660DA08002C5E4D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5D99CE002660DA08002C5E4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5D99CE0F2660DA08002C5E4D /* CipherTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D99CE102660DA08002C5E4D /* CipherTests.swift */,
+				5D99CE122660DA08002C5E4D /* Info.plist */,
+			);
+			path = CipherTests;
+			sourceTree = "<group>";
+		};
+		5D99CE1A2660DA08002C5E4D /* CipherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5D99CE1B2660DA08002C5E4D /* CipherUITests.swift */,
+				5D99CE1D2660DA08002C5E4D /* Info.plist */,
+			);
+			path = CipherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D99CDF52660DA07002C5E4D /* Cipher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D99CE202660DA08002C5E4D /* Build configuration list for PBXNativeTarget "Cipher" */;
+			buildPhases = (
+				5D99CDF22660DA07002C5E4D /* Sources */,
+				5D99CDF32660DA07002C5E4D /* Frameworks */,
+				5D99CDF42660DA07002C5E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cipher;
+			productName = Cipher;
+			productReference = 5D99CDF62660DA07002C5E4D /* Cipher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D99CE0B2660DA08002C5E4D /* CipherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D99CE232660DA08002C5E4D /* Build configuration list for PBXNativeTarget "CipherTests" */;
+			buildPhases = (
+				5D99CE082660DA08002C5E4D /* Sources */,
+				5D99CE092660DA08002C5E4D /* Frameworks */,
+				5D99CE0A2660DA08002C5E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D99CE0E2660DA08002C5E4D /* PBXTargetDependency */,
+			);
+			name = CipherTests;
+			productName = CipherTests;
+			productReference = 5D99CE0C2660DA08002C5E4D /* CipherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5D99CE162660DA08002C5E4D /* CipherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D99CE262660DA08002C5E4D /* Build configuration list for PBXNativeTarget "CipherUITests" */;
+			buildPhases = (
+				5D99CE132660DA08002C5E4D /* Sources */,
+				5D99CE142660DA08002C5E4D /* Frameworks */,
+				5D99CE152660DA08002C5E4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D99CE192660DA08002C5E4D /* PBXTargetDependency */,
+			);
+			name = CipherUITests;
+			productName = CipherUITests;
+			productReference = 5D99CE172660DA08002C5E4D /* CipherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D99CDEE2660DA07002C5E4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					5D99CDF52660DA07002C5E4D = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					5D99CE0B2660DA08002C5E4D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5D99CDF52660DA07002C5E4D;
+					};
+					5D99CE162660DA08002C5E4D = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 5D99CDF52660DA07002C5E4D;
+					};
+				};
+			};
+			buildConfigurationList = 5D99CDF12660DA07002C5E4D /* Build configuration list for PBXProject "Cipher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5D99CDED2660DA07002C5E4D;
+			productRefGroup = 5D99CDF72660DA07002C5E4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D99CDF52660DA07002C5E4D /* Cipher */,
+				5D99CE0B2660DA08002C5E4D /* CipherTests */,
+				5D99CE162660DA08002C5E4D /* CipherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D99CDF42660DA07002C5E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D99CE012660DA08002C5E4D /* Preview Assets.xcassets in Resources */,
+				5D99CDFE2660DA08002C5E4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D99CE0A2660DA08002C5E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D99CE152660DA08002C5E4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D99CDF22660DA07002C5E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D99CE032660DA08002C5E4D /* Persistence.swift in Sources */,
+				5D99CDFC2660DA07002C5E4D /* ContentView.swift in Sources */,
+				5D99CE062660DA08002C5E4D /* Cipher.xcdatamodeld in Sources */,
+				5D99CDFA2660DA07002C5E4D /* CipherApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D99CE082660DA08002C5E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D99CE112660DA08002C5E4D /* CipherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D99CE132660DA08002C5E4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D99CE1C2660DA08002C5E4D /* CipherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D99CE0E2660DA08002C5E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D99CDF52660DA07002C5E4D /* Cipher */;
+			targetProxy = 5D99CE0D2660DA08002C5E4D /* PBXContainerItemProxy */;
+		};
+		5D99CE192660DA08002C5E4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D99CDF52660DA07002C5E4D /* Cipher */;
+			targetProxy = 5D99CE182660DA08002C5E4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5D99CE1E2660DA08002C5E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5D99CE1F2660DA08002C5E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D99CE212660DA08002C5E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cipher/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQ57BSQ8Q6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Cipher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kusumsharma1946.Cipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5D99CE222660DA08002C5E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Cipher/Preview Content\"";
+				DEVELOPMENT_TEAM = ZQ57BSQ8Q6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Cipher/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kusumsharma1946.Cipher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5D99CE242660DA08002C5E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQ57BSQ8Q6;
+				INFOPLIST_FILE = CipherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kusumsharma1946.CipherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cipher.app/Cipher";
+			};
+			name = Debug;
+		};
+		5D99CE252660DA08002C5E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQ57BSQ8Q6;
+				INFOPLIST_FILE = CipherTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kusumsharma1946.CipherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cipher.app/Cipher";
+			};
+			name = Release;
+		};
+		5D99CE272660DA08002C5E4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQ57BSQ8Q6;
+				INFOPLIST_FILE = CipherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kusumsharma1946.CipherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cipher;
+			};
+			name = Debug;
+		};
+		5D99CE282660DA08002C5E4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQ57BSQ8Q6;
+				INFOPLIST_FILE = CipherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.kusumsharma1946.CipherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cipher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D99CDF12660DA07002C5E4D /* Build configuration list for PBXProject "Cipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D99CE1E2660DA08002C5E4D /* Debug */,
+				5D99CE1F2660DA08002C5E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D99CE202660DA08002C5E4D /* Build configuration list for PBXNativeTarget "Cipher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D99CE212660DA08002C5E4D /* Debug */,
+				5D99CE222660DA08002C5E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D99CE232660DA08002C5E4D /* Build configuration list for PBXNativeTarget "CipherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D99CE242660DA08002C5E4D /* Debug */,
+				5D99CE252660DA08002C5E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D99CE262660DA08002C5E4D /* Build configuration list for PBXNativeTarget "CipherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D99CE272660DA08002C5E4D /* Debug */,
+				5D99CE282660DA08002C5E4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5D99CE042660DA08002C5E4D /* Cipher.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5D99CE052660DA08002C5E4D /* Cipher.xcdatamodel */,
+			);
+			currentVersion = 5D99CE052660DA08002C5E4D /* Cipher.xcdatamodel */;
+			path = Cipher.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5D99CDEE2660DA07002C5E4D /* Project object */;
+}
