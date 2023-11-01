@@ -8,13 +8,11 @@
 import SwiftUI
 
 @main
-struct CipherApp: App {
-    let persistenceController = PersistenceController.shared
-
+struct PuzzleApp: App {
     var body: some Scene {
-        WindowGroup {
+        WindowGroup{
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+

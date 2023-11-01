@@ -11,7 +11,6 @@
 		5D99CDFC2660DA07002C5E4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CDFB2660DA07002C5E4D /* ContentView.swift */; };
 		5D99CDFE2660DA08002C5E4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D99CDFD2660DA08002C5E4D /* Assets.xcassets */; };
 		5D99CE012660DA08002C5E4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D99CE002660DA08002C5E4D /* Preview Assets.xcassets */; };
-		5D99CE032660DA08002C5E4D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CE022660DA08002C5E4D /* Persistence.swift */; };
 		5D99CE062660DA08002C5E4D /* Cipher.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CE042660DA08002C5E4D /* Cipher.xcdatamodeld */; };
 		5D99CE112660DA08002C5E4D /* CipherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CE102660DA08002C5E4D /* CipherTests.swift */; };
 		5D99CE1C2660DA08002C5E4D /* CipherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D99CE1B2660DA08002C5E4D /* CipherUITests.swift */; };
@@ -40,7 +39,6 @@
 		5D99CDFB2660DA07002C5E4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5D99CDFD2660DA08002C5E4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D99CE002660DA08002C5E4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5D99CE022660DA08002C5E4D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		5D99CE052660DA08002C5E4D /* Cipher.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cipher.xcdatamodel; sourceTree = "<group>"; };
 		5D99CE072660DA08002C5E4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D99CE0C2660DA08002C5E4D /* CipherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CipherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -102,7 +100,6 @@
 				5D99CDF92660DA07002C5E4D /* CipherApp.swift */,
 				5D99CDFB2660DA07002C5E4D /* ContentView.swift */,
 				5D99CDFD2660DA08002C5E4D /* Assets.xcassets */,
-				5D99CE022660DA08002C5E4D /* Persistence.swift */,
 				5D99CE072660DA08002C5E4D /* Info.plist */,
 				5D99CE042660DA08002C5E4D /* Cipher.xcdatamodeld */,
 				5D99CDFF2660DA08002C5E4D /* Preview Content */,
@@ -265,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D99CE032660DA08002C5E4D /* Persistence.swift in Sources */,
 				5D99CDFC2660DA07002C5E4D /* ContentView.swift in Sources */,
 				5D99CE062660DA08002C5E4D /* Cipher.xcdatamodeld in Sources */,
 				5D99CDFA2660DA07002C5E4D /* CipherApp.swift in Sources */,
@@ -438,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kusumsharma1946.Cipher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -460,7 +456,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kusumsharma1946.Cipher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
